@@ -30,6 +30,7 @@ for other queries - https://docs.spring.io/spring-data/jpa/reference/jpa/query-m
 - validation (Validation)
 - -Lombok  (Lombok)(plugin also change/add) [to remove massive lines of getter setter toString ...]
 - mysql (MySQL Driver )
+- testing (Spring REST Docs )
 Spring Boot 
 - h2 console
 - MYSQL DB
