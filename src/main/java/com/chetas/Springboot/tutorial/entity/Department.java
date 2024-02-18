@@ -14,9 +14,9 @@ import org.hibernate.validator.constraints.Length;
 
 @Entity
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@NoArgsConstructor  // adds default constructor
+@AllArgsConstructor //adds constructor
+@Builder //adds builder
 public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
