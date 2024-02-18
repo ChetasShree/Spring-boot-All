@@ -18,7 +18,7 @@ public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
 
-    private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);  //slj4j wala logger
 
     @PostMapping("/departments")
     public Department saveDepartment(@Valid @RequestBody Department department){
