@@ -23,7 +23,7 @@ public class Department {
     private long departmentId;
 
     @NotBlank(message = "Please Add Department Name")
-//    @Length(max=5,min=1)
+//    @Length(max=5,min=1) =>if using these all validations then go to controller and add @Valid
 //    @Size(max = 10,min=0)
     private String departmentName;
     private String departmentAddress;
